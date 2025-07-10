@@ -19,4 +19,4 @@ mood = st.selectbox("How are you feeling today?", moods)
 
 if mood:
     st.subheader(f"Playlist for your mood: {mood}")
-    st.components.v1.iframe(playlists[mood], height=400)
+    st.components.v1.iframe(playlists[mood])
