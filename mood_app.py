@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("🎧 Mood Playlist App")
 
-moods = ["Happy", "Sad", "Relaxed", "Energetic", "Romantic"]
+moods = ["Happy", "Sad", "Relaxed", "Energetic", "Romantic", "Ashiqui 2"]
 
 # ✅ Use EMBED links here
 playlists = {
